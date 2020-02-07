@@ -17,15 +17,6 @@ right: 200px;
 font-weight: bold;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-aside{
-    position: fixed;
-    height:800px;
-    width: 400px;
-    background-color: coral;
-    top: 30px;
-    color: white;
-    padding: 30px;
-}
 #artical{
     height:800px;
     width: 400px;
@@ -34,4 +25,19 @@ aside{
 #artical h4{
     background-color: yellow;
 }
-@media and screen(max)
+button{
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    transition:all,1s,1s, 1s;
+    transition-timing-function:cubic-bezier(1, 0.5, 0.5, 2);
+    transition-delay: 0.1ms;
+    border: none;
+}
+button:focus{
+    width: 80px;
+    height: 50px;
+    background: #bb7575;
+}
+
