@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            button:hover{
+                width: 80px;
+                height: 50px;
+                color: white;
+                text-transform: uppercase;
+                font-size: 25px;
+                border: 1px solid yellow;
+                background-color: #f01594fb;
+                transition: all 1s,0.5s,0.1s 0.8s,1s;
+                transition: 0.5s;
+                animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                border: none;
+                border-radius: 5px;
+            }
+         #container{
+             width: 800px;
+             height: 50px;
+             position: relative;
+             display: block;
+             
+         }
+        </style>
+    </head>
+    <body>
+       <div id="container">
+           <button type="button" onclick="my()" value="click">click</button>
+       </div>
+       <script>
+           function my(){
+               document.getElementById("container").innerHTML=23*33;
+           }
+       </script>
+       <div id="container">
+           <table>
+               <tr>
+                   <li>Home</li>
+                   <li>About</li>
+                   <li>Containt</li>
+                   <li>Reg</li>
+                   <li>Help</li>
+               </tr>
+           </table>
+       </div>
+    </body>
+</html>
